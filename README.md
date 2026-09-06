@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/tdulcet/sliding-weather/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/tdulcet/sliding-weather/actions/workflows/ci.yml)
+
 # Sliding Weather
 Sliding Weather Watchface for Pebble
 
