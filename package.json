@@ -1,0 +1,137 @@
+{
+    "author": "Teal Dulcet",
+    "dependencies": {
+        "@rebble/clay": "^1.0.10"
+    },
+    "keywords": [],
+    "name": "sliding-weather",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "Teal's Sliding Weather",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "weather",
+            "location",
+            "zip",
+            "country",
+            "units",
+            "key",
+            "temperature",
+            "conditions"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu image.png",
+                    "menuIcon": true,
+                    "name": "menu_image",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[\\u0020-\\u007E\\u00B0\\u2026]",
+                    "file": "fonts/arial.ttf",
+                    "name": "ARIAL_32",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "flint"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[\\u0020-\\u007E\\u00B0\\u2026]",
+                    "file": "fonts/arial.ttf",
+                    "name": "ARIAL_12",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "flint"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[\\u0020-\\u007E\\u00B0\\u2026]",
+                    "file": "fonts/arial.ttf",
+                    "name": "ARIAL_42",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[\\u0020-\\u007E\\u00B0\\u2026]",
+                    "file": "fonts/arial.ttf",
+                    "name": "ARIAL_16",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "emery",
+                        "gabbro",
+                        "flint"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[\\u0020-\\u007E\\u00B0\\u2026]",
+                    "file": "fonts/arial.ttf",
+                    "name": "ARIAL_20",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[\\u0020-\\u007E\\u00B0\\u2026]",
+                    "file": "fonts/ariblk.ttf",
+                    "name": "ARIAL_BLACK_32",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "flint"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[\\u0020-\\u007E\\u00B0\\u2026]",
+                    "file": "fonts/ariblk.ttf",
+                    "name": "ARIAL_BLACK_42",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery",
+            "gabbro",
+            "flint"
+        ],
+        "uuid": "2f01ffd0-6f6f-416b-97db-80c2bf4625a2",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
